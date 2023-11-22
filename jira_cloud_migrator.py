@@ -211,5 +211,6 @@ def main():
       logging.info('Run Completed!')
       print("Run Completed!")
 
-### Run Main    
-main()
+# Execute the main function
+if __name__ == "__main__":
+    main()
