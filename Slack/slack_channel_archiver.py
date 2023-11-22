@@ -27,7 +27,6 @@ logger = logging.getLogger(__name__)
 
 # Set up Slack API client
 enterprise_token = os.environ["SLACK_DISCOVERY_TOKEN"]
-#enterprise_token = os.environ["SLACK_DISCOVERY_SDK_TEST_ENTERPRISE_TOKEN"]
 clientDiscovery = DiscoveryClient(token=enterprise_token)
 client = WebClient(token=os.environ['SLACK_TOKEN'])
 
